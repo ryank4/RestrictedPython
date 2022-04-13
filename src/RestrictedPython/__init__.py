@@ -40,3 +40,7 @@ from RestrictedPython.transformer import RestrictingNodeTransformer  # isort:ski
 
 #
 from RestrictedPython.Eval import RestrictionCapableEval
+
+# custom builtins
+import diagrams
+from RestrictedPython.Allowed import diagram_builtins
